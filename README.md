@@ -2,13 +2,6 @@
 
 Allows `Auto-Miner Mk1`, `Rapid Auto-Miner`, and `Heavy AutoMiner` to be placed anywhere while still snapping correctly to vanilla miner nodes when used on them.
 
-Project layout:
-
-1. `PlaceableMiners.cs` contains plugin bootstrap only.
-2. `Core/` contains runtime and miner-placement logic.
-3. `Patches/` contains thin Harmony patch classes.
-4. `Utilities/` contains version-safe node ghost helpers.
-
 What it does:
 
 1. Removes the normal placement-node restriction for the three miner variants.
